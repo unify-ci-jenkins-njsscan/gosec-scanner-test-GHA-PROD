@@ -4,6 +4,8 @@ on:
     push:
      branches:
       - main
+    schedule:
+      - cron: 20 01 * * 1,4
     workflow_dispatch:
 
 permissions:
